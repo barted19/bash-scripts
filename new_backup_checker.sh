@@ -16,6 +16,6 @@ cp *.sh "$bckp"
 
 echo "data wykonania backupu to $(date)." >> backup.log
 
-echo "SUKCES!"
+echo "SUKCES!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
 
