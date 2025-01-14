@@ -15,6 +15,6 @@ cp *.sh "$bckp"
 # Logowanie daty i godziny wykonania
 
 echo "data wykonania backupu to $(date)." >> backup.log
-echo "Logowanie zakonczone sukcesem!"
+echo "Logowanie zakonczone sukcesem! GRATULACJE!"
 
 
