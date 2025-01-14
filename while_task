@@ -1,0 +1,11 @@
+#!/bin/bash
+
+directory="hej3"
+
+while [ ! -d "$directory" ]; do
+   echo "czekam na utworzenie katalogu o nazwie $directory"
+   sleep 3
+   mkdir $directory
+done
+
+echo "Katalog $d istnieje albo został utworzony"

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+file="check_number"
+
+if [ -f "$file" ]; then
+  echo "Plik $file istnieje."
+else
+  echo "Plik $file nie istnieje."
+fi

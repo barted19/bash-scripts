@@ -1,0 +1,21 @@
+#!/bin/bash
+
+backup_dir="backup"
+
+if [ ! -d "$backup_dir" ]; then
+  echo "Tworze folder $backup_dir ..."
+  mkdir "$backup_dir"
+fi
+
+# Kopowianie plików .sh do folderu backup
+echo "Kopowianie plików do folderu $backup_dir"
+
+cp /e/GitTest/bash-scripts/*.sh "$backup_dir"
+
+# Logowanie wykonanej operacji
+
+echo "Backup wykonany: $(date)" >> backup.log
+
+echo "Backup zakończony!"
+
+
